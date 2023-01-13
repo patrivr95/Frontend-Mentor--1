@@ -126,10 +126,11 @@ button:active {
     }
 
     img.photo-mobile {
-
+        width: 200%;
     }
 
     div.text {
+        padding-bottom: -1rem;
         margin-top: 5rem;
         margin-right: 50%;
     }
