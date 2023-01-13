@@ -26,7 +26,6 @@ body {
     margin: auto;
     width: 640px;
     padding: 50px;
-    border: 2px solid black;
     display: flex;
     position: relative;
 }
@@ -39,6 +38,10 @@ img {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+
+/* img.photo-mobile {
+    display: none;
+} */
 
 p.parfum {
     font-family: 'Montserrat';
@@ -106,8 +109,31 @@ button {
     
 }
 
+button:active {
+    background-color: hsl(158, 37%, 24%);
+}
+
+
 .button-price {
     justify-content: space-between;
+}
+
+
+@media (max-width:375px) {
+
+    img.photo {
+        display: none;
+    }
+
+    img.photo-mobile {
+
+    }
+
+    div.text {
+        margin-top: 5rem;
+        margin-right: 50%;
+    }
+    
 }
 
 
