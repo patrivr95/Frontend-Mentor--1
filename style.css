@@ -121,20 +121,48 @@ button:active {
 
 @media (max-width:375px) {
 
+    .container {
+        margin: auto;
+        width: 640px;
+        padding: 50px;
+        display: grid;
+        position: relative;
+    }
+
     img.photo {
         display: none;
     }
 
     img.photo-mobile {
-        width: 200%;
+        width: 43%;
+        padding-left: -5rem;
+        padding-bottom: 0rem;
+        border-top-left-radius: 1.4rem;
+        border-top-right-radius: 1.4rem;
     }
 
     div.text {
-        padding-bottom: -1rem;
-        margin-top: 5rem;
-        margin-right: 50%;
+        margin-left: 4rem;
+        margin-right: 18.8rem;
+        padding-top: 0rem;
+        margin-top: 0rem;
+        border-bottom-left-radius: 1.4rem;
+        border-bottom-right-radius: 1.4rem;
+    }
+
+    p.name-parfum {
+        font-family: 'Fraunces';
+        font-size: 1.5rem;
+        color: hsl(212, 21%, 14%);
     }
     
+}
+
+
+@media (min-width:376px){
+    img.photo-mobile {
+        display: none;
+    }
 }
 
 
